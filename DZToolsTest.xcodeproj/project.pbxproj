@@ -13,6 +13,7 @@
 		9F1E351D1F5506E200A4427D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F1E351B1F5506E200A4427D /* Main.storyboard */; };
 		9F1E351F1F5506E200A4427D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F1E351E1F5506E200A4427D /* Assets.xcassets */; };
 		9F1E35221F5506E200A4427D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F1E35201F5506E200A4427D /* LaunchScreen.storyboard */; };
+		9F1E352B1F55094400A4427D /* DZTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1E352A1F55094400A4427D /* DZTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,9 @@
 		9F1E351E1F5506E200A4427D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F1E35211F5506E200A4427D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F1E35231F5506E200A4427D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F1E35291F55094400A4427D /* DZTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZTools.h; sourceTree = "<group>"; };
+		9F1E352A1F55094400A4427D /* DZTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZTools.m; sourceTree = "<group>"; };
+		9F1E352C1F5509D000A4427D /* DZTools.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZTools.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,9 @@
 				9F1E35161F5506E200A4427D /* AppDelegate.m */,
 				9F1E35181F5506E200A4427D /* ViewController.h */,
 				9F1E35191F5506E200A4427D /* ViewController.m */,
+				9F1E35291F55094400A4427D /* DZTools.h */,
+				9F1E352A1F55094400A4427D /* DZTools.m */,
+				9F1E352C1F5509D000A4427D /* DZTools.pch */,
 				9F1E351B1F5506E200A4427D /* Main.storyboard */,
 				9F1E351E1F5506E200A4427D /* Assets.xcassets */,
 				9F1E35201F5506E200A4427D /* LaunchScreen.storyboard */,
@@ -153,6 +160,7 @@
 				9F1E351A1F5506E200A4427D /* ViewController.m in Sources */,
 				9F1E35171F5506E200A4427D /* AppDelegate.m in Sources */,
 				9F1E35141F5506E200A4427D /* main.m in Sources */,
+				9F1E352B1F55094400A4427D /* DZTools.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +280,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = DZToolsTest/DZTools.pch;
 				INFOPLIST_FILE = DZToolsTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dzk.DZToolsTest;
@@ -283,6 +292,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = DZToolsTest/DZTools.pch;
 				INFOPLIST_FILE = DZToolsTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dzk.DZToolsTest;
@@ -309,6 +319,7 @@
 				9F1E35281F5506E200A4427D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

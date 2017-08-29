@@ -1,0 +1,21 @@
+//
+//  DZTools.pch
+//  DZToolsTest
+//
+//  Created by dzk on 2017/8/29.
+//  Copyright © 2017年 dzk. All rights reserved.
+//
+
+#ifndef DZTools_pch
+#define DZTools_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+
+#import "DZTools.h"
+
+
+#endif /* DZTools_pch */
