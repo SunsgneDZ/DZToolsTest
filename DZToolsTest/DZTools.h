@@ -11,13 +11,34 @@
 
 @interface DZTools : NSObject
 
-//计算文本高度
+
+/**
+ 计算文本高度
+
+ @param text 文本内容
+ @param width 文本宽度
+ @param font 文本字体大小
+ @return 文本高度
+ */
 + (CGFloat)getTextHeight:(NSString *)text Width:(CGFloat)width Font:(UIFont *)font;
 
-//计算文本宽度
+
+/**
+ 计算文本宽度
+
+ @param text 文本内容
+ @param height 文本高度
+ @param font 文本字体大小
+ @return 文本宽度
+ */
 + (CGFloat)getTextWidth:(NSString *)text Height:(CGFloat)height Font:(UIFont *)font;
 
-//图片放大查看
+
+/**
+ 放大图片
+
+ @param selectImageView 需要放大的图片
+ */
 + (void)showImage:(UIImageView *)selectImageView;
 
 /**

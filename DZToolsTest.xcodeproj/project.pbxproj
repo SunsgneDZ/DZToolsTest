@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F0E90D31FD539B200E4B685 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E90D21FD539B200E4B685 /* TestView.m */; };
+		9F0E90D61FD53A5E00E4B685 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E90D51FD53A5E00E4B685 /* TwoViewController.m */; };
 		9F1E35141F5506E200A4427D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1E35131F5506E200A4427D /* main.m */; };
 		9F1E35171F5506E200A4427D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1E35161F5506E200A4427D /* AppDelegate.m */; };
 		9F1E351A1F5506E200A4427D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1E35191F5506E200A4427D /* ViewController.m */; };
@@ -14,9 +16,15 @@
 		9F1E351F1F5506E200A4427D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F1E351E1F5506E200A4427D /* Assets.xcassets */; };
 		9F1E35221F5506E200A4427D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F1E35201F5506E200A4427D /* LaunchScreen.storyboard */; };
 		9F1E352B1F55094400A4427D /* DZTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1E352A1F55094400A4427D /* DZTools.m */; };
+		CDDE60297C226A70FCCB871D /* libPods-DZToolsTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D00B340B315AC1D5DD790DB4 /* libPods-DZToolsTest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84245B60A42C09DB6739717C /* Pods-DZToolsTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DZToolsTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DZToolsTest/Pods-DZToolsTest.debug.xcconfig"; sourceTree = "<group>"; };
+		9F0E90D11FD539B200E4B685 /* TestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		9F0E90D21FD539B200E4B685 /* TestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
+		9F0E90D41FD53A5D00E4B685 /* TwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		9F0E90D51FD53A5E00E4B685 /* TwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
 		9F1E350F1F5506E200A4427D /* DZToolsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DZToolsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F1E35131F5506E200A4427D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9F1E35151F5506E200A4427D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -30,6 +38,8 @@
 		9F1E35291F55094400A4427D /* DZTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZTools.h; sourceTree = "<group>"; };
 		9F1E352A1F55094400A4427D /* DZTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZTools.m; sourceTree = "<group>"; };
 		9F1E352C1F5509D000A4427D /* DZTools.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZTools.pch; sourceTree = "<group>"; };
+		D00B340B315AC1D5DD790DB4 /* libPods-DZToolsTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DZToolsTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB90B74E366AB0A36D22EE2 /* Pods-DZToolsTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DZToolsTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-DZToolsTest/Pods-DZToolsTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDDE60297C226A70FCCB871D /* libPods-DZToolsTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		86C21317C6AB51155BE09C7D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84245B60A42C09DB6739717C /* Pods-DZToolsTest.debug.xcconfig */,
+				DCB90B74E366AB0A36D22EE2 /* Pods-DZToolsTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		91E37CDECB532B4CCBE21D54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D00B340B315AC1D5DD790DB4 /* libPods-DZToolsTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9F1E35061F5506E200A4427D = {
 			isa = PBXGroup;
 			children = (
 				9F1E35111F5506E200A4427D /* DZToolsTest */,
 				9F1E35101F5506E200A4427D /* Products */,
+				86C21317C6AB51155BE09C7D /* Pods */,
+				91E37CDECB532B4CCBE21D54 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,9 +96,13 @@
 				9F1E35161F5506E200A4427D /* AppDelegate.m */,
 				9F1E35181F5506E200A4427D /* ViewController.h */,
 				9F1E35191F5506E200A4427D /* ViewController.m */,
+				9F0E90D41FD53A5D00E4B685 /* TwoViewController.h */,
+				9F0E90D51FD53A5E00E4B685 /* TwoViewController.m */,
 				9F1E35291F55094400A4427D /* DZTools.h */,
 				9F1E352A1F55094400A4427D /* DZTools.m */,
 				9F1E352C1F5509D000A4427D /* DZTools.pch */,
+				9F0E90D11FD539B200E4B685 /* TestView.h */,
+				9F0E90D21FD539B200E4B685 /* TestView.m */,
 				9F1E351B1F5506E200A4427D /* Main.storyboard */,
 				9F1E351E1F5506E200A4427D /* Assets.xcassets */,
 				9F1E35201F5506E200A4427D /* LaunchScreen.storyboard */,
@@ -93,9 +127,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F1E35261F5506E200A4427D /* Build configuration list for PBXNativeTarget "DZToolsTest" */;
 			buildPhases = (
+				3526E65A8BB0A1C26E2CEA1D /* [CP] Check Pods Manifest.lock */,
 				9F1E350B1F5506E200A4427D /* Sources */,
 				9F1E350C1F5506E200A4427D /* Frameworks */,
 				9F1E350D1F5506E200A4427D /* Resources */,
+				7D1510B88F1B53660211F1B1 /* [CP] Embed Pods Frameworks */,
+				4AEE571D95B3F2C014A7A47F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,6 +189,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3526E65A8BB0A1C26E2CEA1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4AEE571D95B3F2C014A7A47F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DZToolsTest/Pods-DZToolsTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D1510B88F1B53660211F1B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DZToolsTest/Pods-DZToolsTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9F1E350B1F5506E200A4427D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -159,6 +244,8 @@
 			files = (
 				9F1E351A1F5506E200A4427D /* ViewController.m in Sources */,
 				9F1E35171F5506E200A4427D /* AppDelegate.m in Sources */,
+				9F0E90D31FD539B200E4B685 /* TestView.m in Sources */,
+				9F0E90D61FD53A5E00E4B685 /* TwoViewController.m in Sources */,
 				9F1E35141F5506E200A4427D /* main.m in Sources */,
 				9F1E352B1F55094400A4427D /* DZTools.m in Sources */,
 			);
@@ -278,6 +365,7 @@
 		};
 		9F1E35271F5506E200A4427D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84245B60A42C09DB6739717C /* Pods-DZToolsTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = DZToolsTest/DZTools.pch;
@@ -290,6 +378,7 @@
 		};
 		9F1E35281F5506E200A4427D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCB90B74E366AB0A36D22EE2 /* Pods-DZToolsTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = DZToolsTest/DZTools.pch;
